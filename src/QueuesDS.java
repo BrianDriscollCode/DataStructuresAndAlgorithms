@@ -26,8 +26,8 @@ public class QueuesDS
         //*****
 
         //System.out.println(queue.peek());
-        //queue.poll();
-        //queue.poll();
+        queue.poll();
+        queue.poll();
         //queue.poll();
         //queue.poll();
         //queue.offer("Ryan");
