@@ -17,7 +17,7 @@ public class LinearSearch {
     {
         int[] array = {9, 1, 8, 2, 7, 3, 6, 4, 6};
 
-        int index = linearSearch(array, 77);
+        int index = linearSearch(array, 7);
 
         if (index != -1)
         {
