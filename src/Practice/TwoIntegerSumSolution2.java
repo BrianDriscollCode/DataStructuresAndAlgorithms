@@ -27,11 +27,11 @@ public class TwoIntegerSumSolution2 {
 
         for (int i = 0; i < nums.length; i++)
         {
-            Integer compareMapIndex = compareMap.get(nums[i]);
+            Integer index = compareMap.get(nums[i]);
 
-            if (compareMapIndex != null)
+            if (index != null)
             {
-                return new int[]{compareMapIndex, i};
+                return new int[]{index, i};
             }
 
             compareMap.put(target - nums[i], i);
