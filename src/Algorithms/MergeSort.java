@@ -3,7 +3,7 @@ package Algorithms;
 public class MergeSort {
     public static void main(String[] args)
     {
-        // divide and conquer algorithm
+        // divide and conquer algorithm, recursive algorithm
         // Runtime - 0(n log n) = quasilinear
         // Space - 0(n) - linear
 
