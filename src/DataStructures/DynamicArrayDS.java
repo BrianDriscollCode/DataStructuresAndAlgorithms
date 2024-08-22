@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+package DataStructures;
 
 public class DynamicArrayDS {
     public static void main(String[] args)

@@ -1,3 +1,5 @@
+package DataStructures;
+
 public class DynamicArray {
     int size;
     int capacity = 10;

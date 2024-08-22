@@ -33,7 +33,6 @@ public class SelectionSort {
             // start looping through array at 1 position after start from previous loop
             for (int j = i + 1; j < array.length; j++)
             {
-
                 // replace min position if another smaller number is found
                 if (array[min] > array[j])
                 {
