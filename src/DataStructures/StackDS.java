@@ -19,6 +19,10 @@ public class StackDS
         stack.push("Borderlands");
         stack.push("FFVII");
 
+        System.out.println("Top of the stack: " + stack.peek());
+        System.out.println("Stack contents: " + stack);
+        System.out.println("Popped: " + stack.pop());
+
         // Uncomment to test stack operations
         // String myFavGame = stack.pop();
         System.out.println("Top of the stack: " + stack.peek());
