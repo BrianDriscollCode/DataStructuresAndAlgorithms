@@ -1,4 +1,4 @@
-package Practice;
+package OnlinePractice;
 
 //Anagrams are strings that contain the same exact letters,
 

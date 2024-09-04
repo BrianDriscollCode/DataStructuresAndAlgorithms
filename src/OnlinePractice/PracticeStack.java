@@ -1,4 +1,4 @@
-package Practice;
+package OnlinePractice;
 
 import java.util.Scanner;
 import java.util.Stack;

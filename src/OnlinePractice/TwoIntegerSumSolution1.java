@@ -1,10 +1,10 @@
-package Practice;
-import java.util.Map;
-import java.util.HashMap;
+package OnlinePractice;
 
-public class TwoIntegerSumSolution2 {
+public class TwoIntegerSumSolution1 {
+
     public static void main(String[] args)
     {
+
         int[] result1 = twoSum(new int[]{1, 3, 5, 6}, 7);
         int[] result2 = twoSum(new int[]{0, 1, 6, 9}, 7);
 
@@ -21,22 +21,17 @@ public class TwoIntegerSumSolution2 {
         }
     }
 
-    public static int[] twoSum(int[] nums, int target)
+    private static int[] twoSum(int[] nums, int target)
     {
-        Map<Integer, Integer> compareMap = new HashMap<>();
-
         for (int i = 0; i < nums.length; i++)
         {
-            Integer index = compareMap.get(nums[i]);
-
-            if (index != null)
+            for (int j = 0; j < nums.length; j++)
             {
-                return new int[]{index, i};
+                if (nums[i] + nums[j] == target) return new int[]{i, j};
             }
-
-            compareMap.put(target - nums[i], i);
         }
 
         return new int[]{};
     }
+
 }

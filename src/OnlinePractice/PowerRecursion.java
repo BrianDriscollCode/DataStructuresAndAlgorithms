@@ -1,4 +1,4 @@
-package Practice;
+package OnlinePractice;
 
 public class PowerRecursion {
     public static void main(String[] args)
