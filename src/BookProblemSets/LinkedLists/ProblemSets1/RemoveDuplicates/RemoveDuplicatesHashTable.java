@@ -1,4 +1,4 @@
-package BookProblemSets.LinkedLists.RemoveDuplicates;
+package BookProblemSets.LinkedLists.ProblemSets1.RemoveDuplicates;
 
 import java.util.LinkedList;
 import java.util.HashSet;

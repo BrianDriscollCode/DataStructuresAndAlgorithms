@@ -1,4 +1,4 @@
-package BookProblemSets.LinkedLists.DeleteMiddleNode;
+package BookProblemSets.LinkedLists.ProblemSets1.DeleteMiddleNode;
 
 public class DeleteMiddleNode {
     public static void main (String[] args)

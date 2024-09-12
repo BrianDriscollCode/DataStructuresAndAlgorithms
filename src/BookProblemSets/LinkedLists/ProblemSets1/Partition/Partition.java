@@ -1,4 +1,4 @@
-package BookProblemSets.LinkedLists.Partition;
+package BookProblemSets.LinkedLists.ProblemSets1.Partition;
 
 import java.util.LinkedList;
 

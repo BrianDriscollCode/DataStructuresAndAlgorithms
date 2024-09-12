@@ -1,4 +1,4 @@
-package BookProblemSets.LinkedLists.ReturnKthToLast;
+package BookProblemSets.LinkedLists.ProblemSets1.ReturnKthToLast;
 
 import java.util.LinkedList;
 

@@ -1,4 +1,4 @@
-package BookProblemSets.LinkedLists.RemoveDuplicates;
+package BookProblemSets.LinkedLists.ProblemSets1.RemoveDuplicates;
 
 // With a limited buffer, the limiting factor is size. Therefore, time complexity is higher
 // by using 2 points which uses 2 for loops making time to be O(n^2)
@@ -20,7 +20,6 @@ public class RemoveDuplicatesLimitedBuffer {
         list.add(4);
         list.add(5);
         list.add(6);
-
 
         System.out.println(list);
 
